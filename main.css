@@ -5,13 +5,20 @@ h1, h2, h3 {
     background-color: white;
     width: 95%;
     height: auto;
-    text-decoration: bold;
+    text-decoration: bold; 
 }
+
 h1 {
     font-size: 20px;
+    padding: 2%;
+    text-align: center;
+    width: 93%;
 }
+
 h2 {
     font-size: 20px;
+    padding: 1%;
+    text-align: center;
 }
 
 h3 {
@@ -19,20 +26,27 @@ h3 {
     margin-top: 10%;
     margin-left: 3%;
     text-decoration: underline;
+    text-align: center;
+    padding: 3%;
+    width: 90%;
+    
 }
 
 #tastebudtown {
-    font-size: 100px;
+    font-size: 120px;
+    text-decoration: underline;
 }
 
 h4 {
     font-family: Raleway, Poppins, sans-serif;
     font-size: 22px;
     background-color: white;
+    text-align: center;
+    padding: 1.5%;
 }
 
 img {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin-left: 3%;
     border-color: #ffacdd;
@@ -40,7 +54,10 @@ img {
     border-style: solid;
     border-width: 5px;
     background-color: white;
+    display: table;
+    margin: auto;
 } 
+
 
 .dessertbox {
     padding: 3%;
@@ -52,7 +69,7 @@ img {
     font-family: monospace;
     inline-size: 33%;
     overflow-wrap: break-word;
-    margin-left: 20%;
+    margin-left: 23%;
     background-color: white;
 }
 
@@ -74,28 +91,24 @@ img {
 
 body {
     background-color: #fbffe6;
-    display: table;
-    margin: auto;
 }
 
 #credits {
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
 
 #w3c {
     width: 10%;
     padding: 0%;
     margin-left: 0.1%;
-    margin-top: 0%;
-    
+    margin-top: 5%;  
 }
 
 #css {
     width: 9.7%;
     padding: 0%;
-    
-
+    margin-left: 0.1%;
+    margin-top: 5%;
 }
 
 
