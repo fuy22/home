@@ -31,17 +31,6 @@ li {
     margin-left: 3%;
 }
 
-#credits {
-    font-size: 20px;
-    background-color: #ffe9f6;  
-}
-
-#aboutme {
-    font-size: 20px;
-    margin-top: 3%;
-    background-color: #ffe9f6;  
-}
-
 #topcontainer {
     margin-top: 8%;
     margin-bottom: 3%;
@@ -58,6 +47,30 @@ li {
     padding: 5%;
     width: 100%;
 }
+
+#credits {
+    font-size: 20px; 
+    background-color: transparent; 
+}
+
+#aboutme {
+    font-size: 20px;
+    margin-top: 3%;
+    background-color: transparent;
+}
+
+img {
+    width: 60%;
+    height: auto;
+    margin-left: 3%;
+    border-color: #ffacdd;
+    padding: 2%;
+    border-style: solid;
+    border-width: 5px;
+    background-color: white;
+    display: table;
+    margin: auto;
+} 
 
 #w3c {
     width: 10%;

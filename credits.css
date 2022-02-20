@@ -57,13 +57,17 @@ body {
 }
 
 img {
+    width: 60%;
+    height: auto;
     margin-left: 3%;
     border-color: #ffacdd;
     padding: 2%;
     border-style: solid;
     border-width: 5px;
     background-color: white;
-}
+    display: table;
+    margin: auto;
+} 
 
 #w3c {
     width: 10%;
