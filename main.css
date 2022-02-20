@@ -35,6 +35,8 @@ h3 {
 #tastebudtown {
     font-size: 120px;
     text-decoration: underline;
+    overflow-wrap: break-word;
+    width: 93%;
 }
 
 h4 {
@@ -85,8 +87,9 @@ img {
 #Bottom {
     padding-top: 5%;
     padding: 1%;
-    background-color:#ffdcf1;
+    background-color: #ffe9f6;
     padding: 5%;
+    width: 100%;
 }
 
 body {
@@ -96,6 +99,12 @@ body {
 #credits {
     font-size: 20px;  
 }
+
+#aboutme {
+    font-size: 20px;
+    margin-top: 3%;
+}
+
 
 #w3c {
     width: 10%;

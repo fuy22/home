@@ -1,0 +1,39 @@
+#credits {
+    font-size: 20px;  
+}
+
+#aboutme {
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+#topcontainer {
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-left: 6%;
+    background-color: #fff5fb;
+    width: 20%;
+    
+}
+
+#Bottom {
+    padding-top: 5%;
+    padding: 1%;
+    background-color: #ffe9f6;
+    padding: 5%;
+    width: 100%;
+}
+
+#w3c {
+    width: 10%;
+    padding: 0%;
+    margin-left: 0.1%;
+    margin-top: 5%;  
+}
+
+#css {
+    width: 9.7%;
+    padding: 0%;
+    margin-left: 0.1%;
+    margin-top: 5%;
+}

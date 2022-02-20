@@ -5,7 +5,7 @@ h1, h2 {
     background-color: white;
     width: 95%;
     height: auto;
-    text-decoration: bold; 
+    font-style: bold; 
     padding: 2%;
 }
 
@@ -23,6 +23,7 @@ p {
     width: 95%;
     overflow-wrap: break-word;
     margin-left: 2%;
+    font-family: Calibri, Karla, sans-serif;
 }
 
 #topcontainer {
@@ -37,8 +38,9 @@ p {
 #Bottom {
     padding-top: 5%;
     padding: 1%;
-    background-color:#ffdcf1;
+    background-color: #ffe9f6;
     padding: 5%;
+    width: 100%;
 }
 
 body {
@@ -47,6 +49,11 @@ body {
 
 #credits {
     font-size: 20px;  
+}
+
+#aboutme {
+    font-size: 20px;
+    margin-top: 3%;
 }
 
 img {

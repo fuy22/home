@@ -1,0 +1,74 @@
+#tastebudtown {
+    font-style: italic;
+}
+
+body {
+    width: 95%;
+    overflow-wrap: break-word;
+    background-color: #fbffe6;
+}
+
+h1, p, ol {
+    background-color: white;
+}
+
+h1 {
+    font-family: "Lucida Handwriting", "Monoline Script", cursive;
+    color: #ff66a3;
+    font-size: 50px;
+    margin-left: 3%;
+}
+
+p, ol {
+    font-size: 20px;
+    padding: 1%;
+    overflow-wrap: break-word;
+    margin-left: 2%;
+    font-family: Karla, Calibri, sans-serif;
+}
+
+li {
+    margin-left: 3%;
+}
+
+#credits {
+    font-size: 20px;
+    background-color: #ffe9f6;  
+}
+
+#aboutme {
+    font-size: 20px;
+    margin-top: 3%;
+    background-color: #ffe9f6;  
+}
+
+#topcontainer {
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-left: 6%;
+    background-color: #fff5fb;
+    width: 20%;
+    
+}
+
+#Bottom {
+    padding-top: 5%;
+    padding: 1%;
+    background-color: #ffe9f6;
+    padding: 5%;
+    width: 100%;
+}
+
+#w3c {
+    width: 10%;
+    padding: 0%;
+    margin-left: 0.1%;
+    margin-top: 5%;  
+}
+
+#css {
+    width: 9.7%;
+    padding: 0%;
+    margin-left: 0.1%;
+    margin-top: 5%;
+}
