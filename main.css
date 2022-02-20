@@ -47,6 +47,18 @@ h4 {
     padding: 1.5%;
 }
 
+#quote {
+    width: 63%;
+    padding: 1%;
+    background-color: white;
+    font-family: Calibri, sans-serif;
+    color: #ff448f;
+    font-size: 20px;
+    margin-left: 17%;
+    margin-top: 5%;
+    text-align: center;
+}
+
 img {
     width: 60%;
     height: auto;
