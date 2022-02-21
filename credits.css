@@ -1,3 +1,7 @@
+body {
+    background-color: #fbffe6;
+}
+
 h1, h2 {
     font-family: "Lucida Handwriting", "Monoline Script", cursive;
     color: #ff66a3;
@@ -26,36 +30,6 @@ p {
     font-family: Calibri, Karla, sans-serif;
 }
 
-#topcontainer {
-    margin-top: 8%;
-    margin-bottom: 3%;
-    margin-left: 6%;
-    background-color: #fff5fb;
-    width: 20%;
-    
-}
-
-#Bottom {
-    padding-top: 5%;
-    padding: 1%;
-    background-color: #ffe9f6;
-    padding: 5%;
-    width: 100%;
-}
-
-body {
-    background-color: #fbffe6;
-}
-
-#credits {
-    font-size: 20px;  
-}
-
-#aboutme {
-    font-size: 20px;
-    margin-top: 3%;
-}
-
 img {
     width: 60%;
     height: auto;
@@ -68,6 +42,37 @@ img {
     display: table;
     margin: auto;
 } 
+
+#topcontainer {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+    background-color: #fff6fb;
+    width: 20%;
+    padding: 0.5%;
+    font-family: Karla, Calibri, sans-serif;
+    font-size: 20px;
+    
+}
+
+#Bottom {
+    padding-top: 5%;
+    padding: 1%;
+    background-color: #ffe9f6;
+    padding: 5%;
+    width: 100%;
+    font-family: Karla, Calibri, sans-serif;
+}
+
+#credits {
+    font-size: 20px;  
+}
+
+#aboutme {
+    font-size: 20px;
+    margin-top: 3%;
+}
+
 
 #w3c {
     width: 10%;
