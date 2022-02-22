@@ -1,3 +1,27 @@
+body {
+    background-color: #fbffe6;
+}
+
+h1 {
+	font-family: "Lucida Handwriting", "Monoline Script", cursive;
+    color: #ff66a3;
+    margin-left: 2%;
+    background-color: white;
+    width: 95%;
+    height: auto;
+	text-align: center;
+}
+
+#imgsrc {
+    font-size: 10px;
+    font-family: monospace;
+    inline-size: 33%;
+    overflow-wrap: break-word;
+    margin-left: 18%;
+	margin-bottom: 10%;
+    background-color: white;
+}
+
 img {
     width: 60%;
     height: auto;
@@ -11,13 +35,50 @@ img {
     margin: auto;
 } 
 
+#paragraphbox {
+	margin-bottom: 5%;
+    margin-left: 5%;
+    width: 70%;
+    overflow-wrap: break-word;
+    display: table;
+    margin: auto;
+}
+
+#populardishes {
+    overflow-wrap: break-word;
+	background-color: white;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+
+
+p, h2, ul, li {
+    padding: 1%;
+    background-color: white;
+    width: 98%;
+    overflow-wrap: break-word;
+    margin-left: 3%;
+    font-family: Calibri, Karla, sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+	margin-bottom: 0%;
+	padding-top: 3%;
+}
+
+li {
+	margin-top: 0.01%;
+}
+
+
 #topcontainer {
     margin-top: 10%;
     margin-bottom: 10%;
-    margin-left: 6%;
+    margin-left: 4%;
     background-color: #fff6fb;
     width: 20%;
-    padding: 0.5%;
+    padding: 0.5%;   
 }
 
 #topcontainertext {
@@ -37,14 +98,14 @@ img {
 #credits {
     font-size: 20px;
     margin-left: 3%;  
-    background-color: transparent;
+	background-color: transparent;
 }
 
 #aboutme {
     font-size: 20px;
     margin-top: 3%;
     margin-left: 3%;
-    background-color: transparent;
+	background-color: transparent;
 }
 
 
