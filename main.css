@@ -113,32 +113,33 @@ img {
     padding-top: 5%;
     padding: 1%;
     background-color: #ffe9f6;
-    padding: 5%;
     width: 100%;
     font-family: Karla, Calibri, sans-serif;
 }
 
 #credits {
-    font-size: 20px;  
+    font-size: 20px;
+    margin-left: 3%;  
 }
 
 #aboutme {
     font-size: 20px;
     margin-top: 3%;
+    margin-left: 3%;
 }
 
 
 #w3c {
     width: 10%;
     padding: 0%;
-    margin-left: 0.1%;
+    margin-left: 3%;
     margin-top: 5%;  
 }
 
 #css {
     width: 9.7%;
     padding: 0%;
-    margin-left: 0.1%;
+    margin-left: 3%;
     margin-top: 5%;
 }
 
