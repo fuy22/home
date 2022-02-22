@@ -12,28 +12,28 @@ h1 {
 	text-align: center;
 }
 
-#imgsrc {
-    font-size: 10px;
-    font-family: monospace;
-    inline-size: 33%;
-    overflow-wrap: break-word;
-    margin-left: 18%;
-	margin-bottom: 10%;
-    background-color: white;
-}
-
 img {
-    width: 60%;
+    width: 50%;
     height: auto;
     margin-left: 3%;
     border-color: #ffacdd;
-    padding: 2%;
+    padding: 1%;
     border-style: solid;
     border-width: 5px;
     background-color: white;
     display: table;
     margin: auto;
 } 
+
+#imgsrc {
+    font-size: 10px;
+    font-family: monospace;
+    inline-size: 33%;
+    overflow-wrap: break-word;
+    margin-left: 23%;
+	margin-bottom: 10%;
+    background-color: white;
+}
 
 #paragraphbox {
 	margin-bottom: 5%;
@@ -65,10 +65,16 @@ p, h2, ul, li {
 h2 {
 	margin-bottom: 0%;
 	padding-top: 3%;
+	padding-bottom: 0%;
+	font-size: 27px;
 }
 
 li {
 	margin-top: 0.01%;
+}
+
+#firstitem {
+	padding-top: 0%;
 }
 
 
@@ -78,7 +84,9 @@ li {
     margin-left: 4%;
     background-color: #fff6fb;
     width: 20%;
-    padding: 0.5%;   
+    padding: 0.5%;
+    font-family: Karla, Calibri, sans-serif;
+    font-size: 20px;
 }
 
 #topcontainertext {
