@@ -7,10 +7,11 @@ h1, h2 {
     color: #ff66a3;
     margin-left: 4%;
     background-color: white;
-    width: 93%;
+    width: 88%;
     height: auto;
     font-style: bold; 
     padding: 2%;
+    overflow-wrap: break-word;
 }
 
 h1 {
@@ -24,24 +25,11 @@ h2 {
 p {
     padding: 1%;
     background-color: white;
-    width: 95%;
+    width: 90%;
     overflow-wrap: break-word;
     margin-left: 4%;
     font-family: Calibri, Karla, sans-serif;
 }
-
-img {
-    width: 60%;
-    height: auto;
-    margin-left: 3%;
-    border-color: #ffacdd;
-    padding: 2%;
-    border-style: solid;
-    border-width: 5px;
-    background-color: white;
-    display: table;
-    margin: auto;
-} 
 
 #topcontainer {
     margin-top: 10%;
