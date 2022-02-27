@@ -1,7 +1,11 @@
+/* Selects the "body" element and sets its background colour*/
 body {
     background-color: #fbffe6;
 }
 
+/*  Selects the first-, second-, and third-level headings;
+    sets their font family, font colour, distance from the left edge of the page, background colour, width, and height
+*/
 h1, h2, h3 {
     font-family: "Lucida Handwriting", "Monoline Script", cursive;
     color: #ff66a3;
@@ -11,30 +15,47 @@ h1, h2, h3 {
     height: auto; 
 }
 
+/*  Selects the main heading;
+    sets its font size, padding, and width;
+    positions the text it contains in the centre
+*/
 h1 {
     font-size: 25px;
     padding: 2%;
-    text-align: center;
     width: 93%;
+    text-align: center;
 }
 
+/*  Selects the secondary heading;
+    sets its font size and padding;
+    positions the text it contains in the centre
+*/
 h2 {
     font-size: 20px;
     padding: 1%;
     text-align: center;
 }
 
+/*  Selects the third-level headings;
+    sets its font size, distance from the left edge of the page, distance from the element above it, padding and width;
+    makes the third-level heading underlined and positions the text it contains in the centre
+*/
 h3 {
     font-size: 30px;
     margin-top: 10%;
     margin-left: 3%;
-    text-decoration: underline;
-    text-align: center;
     padding: 3%;
     width: 90%;
+    text-decoration: underline;
+    text-align: center;
     
 }
 
+/* Selects the element with the id "tastebudtown";
+   sets its font-size, makes it underlined, and displays it as a block (on a new line);
+   sets its width and padding;
+   positions the text it contains in the centre
+*/
 #tastebudtown {
     font-size: 120px;
     text-decoration: underline;
@@ -44,6 +65,13 @@ h3 {
     text-align: center;
 }
 
+/* Selects the fourth-level headings;
+   sets their font family, font size, and background colour;
+   positions the text they contain in the centre;
+   sets the padding, and width;
+   positions them in the centre of the page;
+   sets their distance from the element below them;
+*/
 h4 {
     font-family: Raleway, Poppins, sans-serif;
     font-size: 22px;
@@ -51,12 +79,15 @@ h4 {
     text-align: center;
     padding: 1.5%;
     width: 80%;
-    margin-left: 10%;
     display: block;
     margin: auto;
     margin-bottom: 3%;
 }
 
+/* Selects the element with the id "quote";
+   sets its width, padding, background colour, font family, font colour, font size, distance from the left edge of the page, and distance from the element above it;
+   positions the text it contains in the centre;
+*/
 #quote {
     width: 63%;
     padding: 1%;
@@ -69,34 +100,53 @@ h4 {
     text-align: center;
 }
 
+/* Selects the "img" elements;
+   sets their width, height, distance from the left edge of the page;
+   sets their borders' colour, style, and width;
+   sets their background colour and padding;
+   positions them in the centre of the page
+*/
 img {
     width: 60%;
     height: auto;
     margin-left: 3%;
     border-color: #ffacdd;
-    padding: 2%;
     border-style: solid;
     border-width: 5px;
     background-color: white;
+    padding: 2%;
     display: table;
     margin: auto;
 }
 
+/* Selects the element with the id "dessertbox";
+   sets its padding amd distance from the element above it
+*/
 .dessertbox {
     padding: 3%;
     margin-top: 5%;
     
 }
 
+
+/* Selects the elements with the class "imgsrc";
+   sets their font size, font family, width, distance from the left edge of the page, and background colour;
+   breaks the text it contains so it stays within the box containing the element
+*/
 .imgsrc {
     font-size: 10px;
     font-family: monospace;
-    inline-size: 33%;
-    overflow-wrap: break-word;
+    width: 35%;
     margin-left: 18%;
     background-color: white;
+    overflow-wrap: break-word;  
 }
 
+
+/* Selects the element with the id "topcontainer";
+   sets its distance from the elements above and below it, and its distance from the left edge of the page;
+   sets its background colour, width, padding, font family, and font-size
+*/
 #topcontainer {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -109,26 +159,39 @@ img {
     
 }
 
+/* Selects the element with the id "Bottom";
+   sets its padding, background colour, width, and font-family;
+*/
 #Bottom {
-    padding-top: 5%;
     padding: 1%;
     background-color: #ffe9f6;
     width: 100%;
     font-family: Karla, Calibri, sans-serif;
 }
 
+/* Selects the element with the id "credits";
+   sets its font size, distance from the left edge of the page, and its background colour
+*/
 #credits {
     font-size: 20px;
     margin-left: 3%;  
+    background-color: transparent;
 }
 
+/* Selects the element with the id "aboutme";
+   sets its font size, distance from the left edge of the page, distance from the element above it, and its background colour
+*/
 #aboutme {
     font-size: 20px;
     margin-top: 3%;
     margin-left: 3%;
+    background-color: transparent;
 }
 
 
+/* Selects the element with the id "w3c";
+   sets its width, padding, distance from the left edge of the page, and distance from the element above it
+*/
 #w3c {
     width: 10%;
     padding: 0%;
@@ -136,6 +199,9 @@ img {
     margin-top: 5%;  
 }
 
+/* Selects the element with the id "css";
+   sets its width, padding, distance from the left edge of the page, and distance from the element above it
+*/
 #css {
     width: 9.7%;
     padding: 0%;

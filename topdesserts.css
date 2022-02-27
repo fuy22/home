@@ -1,14 +1,21 @@
+/* Selects the "body" element and sets its background colour*/
 body {
     background-color: #fbffe6;
 }
 
+/*  Selects the first-, second-, and third-level headings;
+    sets their font colour and background colour;
+    sets their distance from the left edge of the page
+*/
 h1, h2, h3{
     color: #ff66a3;
     background-color: white;
-    width: 93%;
     margin-left: 3%;
 }
 
+/* Sets the main heading's font family;
+   also sets the width, font size, alignment of the text it contains, and padding, and makes the main heading underlined 
+*/
 h1 {
     font-family: "Lucida Handwriting", "Monoline Script", cursive;
     width: 88%;
@@ -18,6 +25,12 @@ h1 {
     text-decoration: underline;
 }
 
+
+/* Selects the secondary heading;
+   sets the secondary heading's font family;
+   also sets the width, font size, alignment of the text it contains, and padding, and makes the secondary heading underlined;
+    positions the secondary heading so it is in the centre of the page
+*/
 h2 {
     font-family: Raleway, Poppins, sans-serif;
     font-size: 35px;
@@ -29,62 +42,90 @@ h2 {
     margin: auto;
 }
 
+/*  Selects the third-level heading;
+    sets the third-level heading's font family;
+   also sets its font size, padding, distance from the left edge of the page and distance from the element above it;
+   makes the third-level heading underlined;
+*/
 h3 {
     font-family: Raleway, Poppins, sans-serif;
     font-size: 30px;
     text-decoration: underline;
     margin-left: 2%;
-    margin-top: 10%;
     padding: 2%;
-
+    margin-top: 10%;
 }
 
+/* Selects elements with the class "pargraphbox";
+   breaks the text it contains so it stays within the box containing the element;
+   positions the selected elements in the centre of the page
+*/
 .paragraphbox {
-    margin-bottom: 5%;
-    margin-left: 5%;
     width: 70%;
     overflow-wrap: break-word;
     display: table;
     margin: auto;
 }
 
+/* Selects the paragraph elements;
+   sets their font family, fontsize, padding, background colour, and width;
+   breaks the text it contains so it stays within the box containing the element;
+   sets their distance from the left edge of the page;
+*/
 p {
+    font-family: Calibri, Karla, sans-serif;
+    font-size: 20px;
     padding: 1%;
     background-color: white;
     width: 95%;
     overflow-wrap: break-word;
     margin-left: 2%;
-    font-family: Calibri, Karla, sans-serif;
-    font-size: 20px;
 }
 
+/* Selects the element with the id "dessertbox";
+   sets its padding;
+*/
 #dessertbox {
-    padding: 3%;
-    
+    padding: 3%;  
 }
 
+/* Selects the "img" elements;
+   sets their width, height, distance from the left edge of the page;
+   sets their borders' colour, style, and width;
+   sets their background colour and padding;
+   positions them in the centre of the page
+*/
 img {
     width: 60%;
     height: auto;
     margin-left: 3%;
     border-color: #ffacdd;
-    padding: 2%;
     border-style: solid;
     border-width: 5px;
     background-color: white;
+    padding: 2%;
     display: table;
     margin: auto;
 }
 
+/* Selects the element with the id "imgsrc";
+   sets its font size, font family, width, distance from the left edge of the page, and background colour;
+   breaks the text it contains so it stays within the box containing the element
+*/
 #imgsrc {
     font-size: 10px;
     font-family: monospace;
-    inline-size: 33%;
-    overflow-wrap: break-word;
+    width: 35%;
     margin-left: 17%;
     background-color: white;
+    overflow-wrap: break-word;
 }
 
+
+/* Selects the element with the id "topcontainer";
+   sets its distance from the elements above and below it;
+   sets its background colour, width, padding, font family, and font-size
+*/
 #topcontainer {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -93,30 +134,40 @@ img {
     width: 22%;
     padding: 0.5%;
     font-family: Karla, Calibri, sans-serif;
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
 
+/* Selects the element with the id "topcontainertext";
+   sets its background colour, font size, and font family
+*/
 #topcontainertext {
     background-color: transparent;
     font-size: 20px;
     font-family: Karla, Calibri, sans-serif;
 }
 
+/* Selects the element with the id "Bottom";
+   sets its padding, background colour, width, and font-family;
+*/
 #Bottom {
-    padding-top: 5%;
     padding: 1%;
     background-color: #ffe9f6;
     width: 100%;
     font-family: Karla, Calibri, sans-serif;
 }
 
+/* Selects the element with the id "credits";
+   sets its font size, distance from the left edge of the page, and its background colour
+*/
 #credits {
     font-size: 20px;
     margin-left: 3%;  
     background-color: transparent;
 }
 
+/* Selects the element with the id "aboutme";
+   sets its font size, distance from the left edge of the page, distance from the element above it, and its background colour
+*/
 #aboutme {
     font-size: 20px;
     margin-top: 3%;
@@ -124,7 +175,9 @@ img {
     background-color: transparent;
 }
 
-
+/* Selects the element with the id "w3c";
+   sets its width, padding, distance from the left edge of the page, and distance from the element above it
+*/
 #w3c {
     width: 10%;
     padding: 0%;
@@ -132,6 +185,9 @@ img {
     margin-top: 5%;  
 }
 
+/* Selects the element with the id "css";
+   sets its width, padding, distance from the left edge of the page, and distance from the element above it
+*/
 #css {
     width: 9.7%;
     padding: 0%;
