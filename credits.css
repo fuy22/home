@@ -102,7 +102,6 @@ p {
    sets their width, height, distance from the left edge of the page;
    sets their borders' colour, style, and width;
    sets their background colour and padding;
-   positions them in the centre of the page
 */
 img {
     width: 50%;
@@ -113,8 +112,6 @@ img {
     border-width: 5px;
     background-color: white;
     padding: 1%;
-    display: table;
-    margin: auto;
 } 
 
 /* Selects the element with the id "w3c";
@@ -128,9 +125,11 @@ img {
 }
 
 /* Selects the element with the id "css";
+   displays it on a new line;
    sets its width, padding, distance from the left edge of the page, and distance from the element above it;
 */
 #css {
+    display: block;
     width: 9.7%;
     padding: 0%;
     margin-left: 3%;
