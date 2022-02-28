@@ -100,20 +100,28 @@ p {
 
 /* Selects the element with the id "w3c";
    sets its width, padding, distance from the left edge of the page, and distance from the element above it
-*/
+   sets its border's colour, style, and width
+   */
 #w3c {
     width: 10%;
     padding: 0%;
     margin-left: 3%;
-    margin-top: 5%;  
+    margin-top: 5%;
+    border-color: #ff66a3;
+    border-style: solid;
+    border-width: 5px;  
 }
 
 /* Selects the element with the id "css";
-   sets its width, padding, distance from the left edge of the page, and distance from the element above it
+   sets its width, padding, distance from the left edge of the page, and distance from the element above it;
+   sets its border's colour, style, and width
 */
 #css {
     width: 9.7%;
     padding: 0%;
     margin-left: 3%;
     margin-top: 5%;
+    border-color: #ff66a3;
+    border-style: solid;
+    border-width: 5px;
 }
